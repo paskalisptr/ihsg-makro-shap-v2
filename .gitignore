@@ -1,0 +1,32 @@
+# Secrets
+config.py
+
+# Data (besar, tidak perlu di-commit -- reproducible dari hari1_akuisisi_data.py)
+data_raw/*
+data_processed/*
+!data_raw/.gitkeep
+!data_processed/.gitkeep
+
+# Output (regenerable dari kode)
+outputs/figures/*
+outputs/tables/*
+outputs/models/*
+outputs/models_klasifikasi/*
+!outputs/figures/.gitkeep
+!outputs/tables/.gitkeep
+!outputs/models/.gitkeep
+!outputs/models_klasifikasi/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# OS
+.DS_Store
+
+# Logs & temp files
+*.log
+eror.txt

@@ -1,0 +1,11 @@
+pandas
+numpy
+yfinance
+fredapi
+statsmodels
+scikit-learn
+xgboost
+shap
+scipy
+matplotlib
+joblib
