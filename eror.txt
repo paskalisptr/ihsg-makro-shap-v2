@@ -1,0 +1,111 @@
+Dataset final: (1642, 18) 2019-09-02 00:00:00 s/d 2026-06-29 00:00:00
+
+=== Statistik deskriptif ===
+                      count       mean         std  ...        50%        75%         max
+usdidr_lag1          1642.0   2.243423  104.818680  ...   2.767578  44.174316  791.500000        
+sp500_lag1           1642.0   2.697588   54.750229  ...   2.765015  30.772522  474.129883        
+oil_wti_lag1         1642.0   0.007625    2.754656  ...   0.040001   0.970001   47.640001        
+dxy_lag1             1642.0   0.001736    0.445514  ...   0.000000   0.250000    1.959999        
+vix_lag1             1642.0  20.479391    7.541408  ...  18.629999  23.420000   82.690002        
+ust10y_lag1          1642.0   0.001754    0.059950  ...   0.000000   0.040000    0.290000        
+fed_funds_rate_lag1  1642.0   0.000920    0.054286  ...   0.000000   0.000000    0.750000        
+epu_lag1             1642.0   0.092832  104.893981  ...  -1.405000  48.030000  872.820000        
+indonia_lag1         1642.0   0.000543    0.080967  ...   0.000025   0.013615    0.892890        
+bi_rate_lag1         1642.0   0.000152    0.037539  ...   0.000000   0.000000    0.500000        
+inflasi_lag1         1642.0  -0.000146    0.103045  ...   0.000000   0.000000    1.260000        
+pdb_lag1             1642.0   0.000341    0.308667  ...   0.000000   0.000000    7.770000        
+return_ihsg          1642.0  -0.000051    0.011468  ...   0.000446   0.005630    0.097042        
+return_ihsg_lag1     1642.0  -0.000039    0.011464  ...   0.000457   0.005637    0.097042        
+return_ihsg_lag2     1642.0  -0.000028    0.011457  ...   0.000466   0.005637    0.097042        
+return_ihsg_lag3     1642.0  -0.000040    0.011447  ...   0.000466   0.005630    0.097042        
+vol_roll5_lag1       1642.0   0.009053    0.006807  ...   0.007235   0.010618    0.062103        
+vol_roll20_lag1      1642.0   0.009683    0.005723  ...   0.007967   0.010347    0.042301        
+
+[18 rows x 8 columns]
+C:\Users\X1 Carbon\GITHUB Project\ihsg-makro-shap-2.0\src\hari3_eda.py:40: FutureWarning: adfuller currently returns a plain tuple whose length depends on the store and autolag arguments. In release 0.16 or after July 2027, whichever is later, the default behavior will switch to always returning an ADFullerResult. Set result_object=True to switch now, or result_object=False to keep the current behavior and silence this warning.
+  {"variabel": c, "adf_stat": (r := adfuller(df[c].dropna()))[0], "p_value": r[1],
+C:\Users\X1 Carbon\GITHUB Project\ihsg-makro-shap-2.0\src\hari3_eda.py:40: FutureWarning: adfuller currently returns a plain tuple whose length depends on the store and autolag arguments. In release 0.16 or after July 2027, whichever is later, the default behavior will switch to always returning an ADFullerResult. Set result_object=True to switch now, or result_object=False to keep the current behavior and silence this warning.
+  {"variabel": c, "adf_stat": (r := adfuller(df[c].dropna()))[0], "p_value": r[1],
+C:\Users\X1 Carbon\GITHUB Project\ihsg-makro-shap-2.0\src\hari3_eda.py:40: FutureWarning: adfuller currently returns a plain tuple whose length depends on the store and autolag arguments. In release 0.16 or after July 2027, whichever is later, the default behavior will switch to always returning an ADFullerResult. Set result_object=True to switch now, or result_object=False to keep the current behavior and silence this warning.
+  {"variabel": c, "adf_stat": (r := adfuller(df[c].dropna()))[0], "p_value": r[1],
+C:\Users\X1 Carbon\GITHUB Project\ihsg-makro-shap-2.0\src\hari3_eda.py:40: FutureWarning: adfuller currently returns a plain tuple whose length depends on the store and autolag arguments. In release 0.16 or after July 2027, whichever is later, the default behavior will switch to always returning an ADFullerResult. Set result_object=True to switch now, or result_object=False to keep the current behavior and silence this warning.
+  {"variabel": c, "adf_stat": (r := adfuller(df[c].dropna()))[0], "p_value": r[1],
+C:\Users\X1 Carbon\GITHUB Project\ihsg-makro-shap-2.0\src\hari3_eda.py:40: FutureWarning: adfuller currently returns a plain tuple whose length depends on the store and autolag arguments. In release 0.16 or after July 2027, whichever is later, the default behavior will switch to always returning an ADFullerResult. Set result_object=True to switch now, or result_object=False to keep the current behavior and silence this warning.
+  {"variabel": c, "adf_stat": (r := adfuller(df[c].dropna()))[0], "p_value": r[1],
+C:\Users\X1 Carbon\GITHUB Project\ihsg-makro-shap-2.0\src\hari3_eda.py:40: FutureWarning: adfuller currently returns a plain tuple whose length depends on the store and autolag arguments. In release 0.16 or after July 2027, whichever is later, the default behavior will switch to always returning an ADFullerResult. Set result_object=True to switch now, or result_object=False to keep the current behavior and silence this warning.
+  {"variabel": c, "adf_stat": (r := adfuller(df[c].dropna()))[0], "p_value": r[1],
+C:\Users\X1 Carbon\GITHUB Project\ihsg-makro-shap-2.0\src\hari3_eda.py:40: FutureWarning: adfuller currently returns a plain tuple whose length depends on the store and autolag arguments. In release 0.16 or after July 2027, whichever is later, the default behavior will switch to always returning an ADFullerResult. Set result_object=True to switch now, or result_object=False to keep the current behavior and silence this warning.
+  {"variabel": c, "adf_stat": (r := adfuller(df[c].dropna()))[0], "p_value": r[1],
+C:\Users\X1 Carbon\GITHUB Project\ihsg-makro-shap-2.0\src\hari3_eda.py:40: FutureWarning: adfuller currently returns a plain tuple whose length depends on the store and autolag arguments. In release 0.16 or after July 2027, whichever is later, the default behavior will switch to always returning an ADFullerResult. Set result_object=True to switch now, or result_object=False to keep the current behavior and silence this warning.
+  {"variabel": c, "adf_stat": (r := adfuller(df[c].dropna()))[0], "p_value": r[1],
+C:\Users\X1 Carbon\GITHUB Project\ihsg-makro-shap-2.0\src\hari3_eda.py:40: FutureWarning: adfuller currently returns a plain tuple whose length depends on the store and autolag arguments. In release 0.16 or after July 2027, whichever is later, the default behavior will switch to always returning an ADFullerResult. Set result_object=True to switch now, or result_object=False to keep the current behavior and silence this warning.
+  {"variabel": c, "adf_stat": (r := adfuller(df[c].dropna()))[0], "p_value": r[1],
+C:\Users\X1 Carbon\GITHUB Project\ihsg-makro-shap-2.0\src\hari3_eda.py:40: FutureWarning: adfuller currently returns a plain tuple whose length depends on the store and autolag arguments. In release 0.16 or after July 2027, whichever is later, the default behavior will switch to always returning an ADFullerResult. Set result_object=True to switch now, or result_object=False to keep the current behavior and silence this warning.
+  {"variabel": c, "adf_stat": (r := adfuller(df[c].dropna()))[0], "p_value": r[1],
+C:\Users\X1 Carbon\GITHUB Project\ihsg-makro-shap-2.0\src\hari3_eda.py:40: FutureWarning: adfuller currently returns a plain tuple whose length depends on the store and autolag arguments. In release 0.16 or after July 2027, whichever is later, the default behavior will switch to always returning an ADFullerResult. Set result_object=True to switch now, or result_object=False to keep the current behavior and silence this warning.
+  {"variabel": c, "adf_stat": (r := adfuller(df[c].dropna()))[0], "p_value": r[1],
+C:\Users\X1 Carbon\GITHUB Project\ihsg-makro-shap-2.0\src\hari3_eda.py:40: FutureWarning: adfuller currently returns a plain tuple whose length depends on the store and autolag arguments. In release 0.16 or after July 2027, whichever is later, the default behavior will switch to always returning an ADFullerResult. Set result_object=True to switch now, or result_object=False to keep the current behavior and silence this warning.
+  {"variabel": c, "adf_stat": (r := adfuller(df[c].dropna()))[0], "p_value": r[1],
+C:\Users\X1 Carbon\GITHUB Project\ihsg-makro-shap-2.0\src\hari3_eda.py:40: FutureWarning: adfuller currently returns a plain tuple whose length depends on the store and autolag arguments. In release 0.16 or after July 2027, whichever is later, the default behavior will switch to always returning an ADFullerResult. Set result_object=True to switch now, or result_object=False to keep the current behavior and silence this warning.
+  {"variabel": c, "adf_stat": (r := adfuller(df[c].dropna()))[0], "p_value": r[1],
+C:\Users\X1 Carbon\GITHUB Project\ihsg-makro-shap-2.0\src\hari3_eda.py:40: FutureWarning: adfuller currently returns a plain tuple whose length depends on the store and autolag arguments. In release 0.16 or after July 2027, whichever is later, the default behavior will switch to always returning an ADFullerResult. Set result_object=True to switch now, or result_object=False to keep the current behavior and silence this warning.
+  {"variabel": c, "adf_stat": (r := adfuller(df[c].dropna()))[0], "p_value": r[1],
+C:\Users\X1 Carbon\GITHUB Project\ihsg-makro-shap-2.0\src\hari3_eda.py:40: FutureWarning: adfuller currently returns a plain tuple whose length depends on the store and autolag arguments. In release 0.16 or after July 2027, whichever is later, the default behavior will switch to always returning an ADFullerResult. Set result_object=True to switch now, or result_object=False to keep the current behavior and silence this warning.
+  {"variabel": c, "adf_stat": (r := adfuller(df[c].dropna()))[0], "p_value": r[1],
+C:\Users\X1 Carbon\GITHUB Project\ihsg-makro-shap-2.0\src\hari3_eda.py:40: FutureWarning: adfuller currently returns a plain tuple whose length depends on the store and autolag arguments. In release 0.16 or after July 2027, whichever is later, the default behavior will switch to always returning an ADFullerResult. Set result_object=True to switch now, or result_object=False to keep the current behavior and silence this warning.
+  {"variabel": c, "adf_stat": (r := adfuller(df[c].dropna()))[0], "p_value": r[1],
+C:\Users\X1 Carbon\GITHUB Project\ihsg-makro-shap-2.0\src\hari3_eda.py:40: FutureWarning: adfuller currently returns a plain tuple whose length depends on the store and autolag arguments. In release 0.16 or after July 2027, whichever is later, the default behavior will switch to always returning an ADFullerResult. Set result_object=True to switch now, or result_object=False to keep the current behavior and silence this warning.
+  {"variabel": c, "adf_stat": (r := adfuller(df[c].dropna()))[0], "p_value": r[1],
+C:\Users\X1 Carbon\GITHUB Project\ihsg-makro-shap-2.0\src\hari3_eda.py:40: FutureWarning: adfuller currently returns a plain tuple whose length depends on the store and autolag arguments. In release 0.16 or after July 2027, whichever is later, the default behavior will switch to always returning an ADFullerResult. Set result_object=True to switch now, or result_object=False to keep the current behavior and silence this warning.
+  {"variabel": c, "adf_stat": (r := adfuller(df[c].dropna()))[0], "p_value": r[1],
+
+=== Uji ADF (stasioneritas) ===
+           variabel   adf_stat      p_value    status
+        usdidr_lag1 -15.666603 1.530786e-28 Stasioner
+         sp500_lag1 -21.900497 0.000000e+00 Stasioner
+       oil_wti_lag1 -27.479957 0.000000e+00 Stasioner
+           dxy_lag1 -17.919646 2.909336e-30 Stasioner
+           vix_lag1  -4.753591 6.666491e-05 Stasioner
+        ust10y_lag1 -16.843819 1.132616e-29 Stasioner
+fed_funds_rate_lag1 -40.345175 0.000000e+00 Stasioner
+           epu_lag1  -9.820482 5.354661e-17 Stasioner
+       indonia_lag1  -4.897201 3.531447e-05 Stasioner
+       bi_rate_lag1  -3.894531 2.075468e-03 Stasioner
+       inflasi_lag1 -40.484647 0.000000e+00 Stasioner
+           pdb_lag1 -40.484614 0.000000e+00 Stasioner
+        return_ihsg -14.766345 2.359385e-27 Stasioner
+   return_ihsg_lag1 -14.777106 2.275245e-27 Stasioner
+   return_ihsg_lag2 -14.835757 1.869514e-27 Stasioner
+   return_ihsg_lag3 -14.819378 1.974420e-27 Stasioner
+     vol_roll5_lag1  -5.067261 1.630722e-05 Stasioner
+    vol_roll20_lag1  -3.380874 1.162840e-02 Stasioner
+
+Outlier ekstrem (>3xIQR): 24 hari, 11 di train, 13 di test
+            return_ihsg
+Date
+2025-04-08    -0.082318
+2026-01-28    -0.076297
+2020-03-09    -0.068051
+2020-03-19    -0.053415
+2020-03-12    -0.051426
+2020-09-10    -0.051385
+2020-03-17    -0.051153
+2020-03-23    -0.050210
+2026-02-02    -0.050080
+2026-03-04    -0.046758
+2026-06-08    -0.046206
+2020-03-16    -0.045206
+2022-05-09    -0.045155
+2026-06-05    -0.042863
+2026-06-03    -0.041923
+2025-03-18    -0.039162
+2025-03-03     0.038950
+2020-04-06     0.039940
+2026-06-15     0.040341
+2026-04-08     0.043260
+2020-03-27     0.046532
+2025-04-10     0.046815
+2026-06-09     0.072991
+2020-03-26     0.097042
+
+Semua figure tersimpan di outputs/figures/

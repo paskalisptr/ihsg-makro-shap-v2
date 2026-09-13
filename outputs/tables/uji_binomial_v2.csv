@@ -1,0 +1,6 @@
+segmen,k,n,akurasi,p_value,status
+XGBoost keseluruhan,188,346,0.5433526011560693,0.05942875705558751,tidak signifikan
+XGBoost vol tinggi,95,173,0.5491329479768786,0.11185248409295219,tidak signifikan
+XGBoost vol rendah,93,173,0.5375722543352601,0.18081436835965045,tidak signifikan
+Random Forest keseluruhan,187,346,0.5404624277456648,0.0732625314527939,tidak signifikan
+Linear Regression keseluruhan,193,346,0.5578034682080925,0.017936041645300774,SIGNIFIKAN
